@@ -114,8 +114,8 @@ header {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   margin: 200px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  /* margin-bottom: 60px; */
 }
 .delivery-des {
   color: rgba(39, 39, 39, 0.8);
@@ -156,4 +156,15 @@ span {
 }
 .left-sale-container {
   padding-left: 280px;
+}
+/*instagram  */
+.instagram {
+  text-align: center;
+}
+.four-flowers {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+  margin-right: 200px;
+  gap: 10px;
 }
