@@ -1,8 +1,102 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Lato", sans-serif;
 }
-
+/* Heading section starts from here CSS */
 header {
-  color: blue;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(229, 84, 115, 0.1);
+  /* padding-right: 120px;
+  padding-left: 120px; */
+}
+.lotus-image {
+  width: 400px;
+  height: 450px;
+  padding-top: 50px;
+  border-right: 240px;
+}
+.left-header {
+  border-left: 240px;
+}
+.left-header-heading {
+  color: #272727;
+
+  font-size: 50px;
+
+  font-weight: 800;
+  line-height: normal;
+}
+.left-header-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.btn {
+  border-radius: 8px;
+  background-color: #e55473;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+/* Our featured flower section CSS */
+.featured {
+  text-align: center;
+}
+.featured-heading {
+  color: #272727;
+  text-align: center;
+
+  font-size: 30px;
+
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 130px;
+}
+/* Three main featured flower css */
+.flower-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.flower {
+  height: 450px;
+}
+.lotus-flower-img {
+  width: 300px;
+  height: 350px;
+  border-radius: 400px 400px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+
+  padding: 40px 20px 0px 20px;
+}
+.second-flower-img {
+  width: 300px;
+  height: 350px;
+  border-radius: 400px 400px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 20px 20px 20px 20px;
+}
+.third-flower-img {
+  width: 300px;
+  height: 350px;
+  border-radius: 400px 400px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 40px 20px 0 20px;
+}
+.pink-heading {
+  padding-top: 20px;
+  text-align: center;
 }
