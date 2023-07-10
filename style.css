@@ -5,7 +5,7 @@
 }
 /* Heading section starts from here CSS */
 header {
-  height: 500px;
+  height: 550px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -15,7 +15,7 @@ header {
 }
 .lotus-image {
   width: 400px;
-  height: 450px;
+  height: 500px;
   padding-top: 50px;
   border-right: 240px;
 }
@@ -100,6 +100,7 @@ header {
   padding-top: 20px;
 
   text-align: center;
+  text-decoration: underline;
 }
 /* Delivery and support CSS */
 .delivery-support-container {
@@ -113,8 +114,8 @@ header {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   margin: 200px;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .delivery-des {
   color: rgba(39, 39, 39, 0.8);
@@ -144,7 +145,15 @@ header {
 
   font-weight: 800;
   line-height: normal;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 span {
   color: #e55473;
+}
+.rose {
+  padding: 80px 300px 80px 80px;
+}
+.left-sale-container {
+  padding-left: 280px;
 }
