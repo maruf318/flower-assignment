@@ -168,3 +168,24 @@ span {
   margin-right: 200px;
   gap: 10px;
 }
+/* Deals coupons Start CSS */
+.deals {
+  text-align: center;
+  height: 400px;
+  background-image: url("./Flower Asset/Rectangle\ 9.png");
+  margin: 100px;
+}
+.email {
+  padding: 20px 300px 20px 20px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  margin-right: 20px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: normal;
+}
