@@ -68,14 +68,14 @@ header {
   align-items: center;
 
   text-align: center;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 .flower {
   height: 450px;
 }
 .lotus-flower-img {
-  width: 300px;
+  width: 310px;
   height: 350px;
   border-radius: 400px 400px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
@@ -83,14 +83,14 @@ header {
   padding: 40px 20px 0px 20px;
 }
 .second-flower-img {
-  width: 300px;
+  width: 310px;
   height: 350px;
   border-radius: 400px 400px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
   padding: 20px 20px 20px 20px;
 }
 .third-flower-img {
-  width: 300px;
+  width: 310px;
   height: 350px;
   border-radius: 400px 400px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
@@ -98,5 +98,53 @@ header {
 }
 .pink-heading {
   padding-top: 20px;
+
   text-align: center;
+}
+/* Delivery and support CSS */
+.delivery-support-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  text-align: center;
+
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 200px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.delivery-des {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+
+  font-size: 15px;
+
+  font-weight: 600;
+  /* line-height: 35px; */
+  padding-top: 10px;
+}
+/* Sale container CSS */
+.sale-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  text-align: center;
+  height: 500px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.left-sale-heading {
+  color: #272727;
+
+  font-size: 40px;
+
+  font-weight: 800;
+  line-height: normal;
+}
+span {
+  color: #e55473;
 }
