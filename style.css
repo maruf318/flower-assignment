@@ -164,9 +164,12 @@ span {
 .four-flowers {
   display: flex;
   justify-content: space-around;
-  margin-left: 200px;
-  margin-right: 200px;
+
+  margin: 200px;
   gap: 10px;
+}
+.my-flower {
+  width: 24%;
 }
 /* Deals coupons Start CSS */
 .deals {
@@ -174,7 +177,9 @@ span {
   height: 400px;
   background-image: url("./Flower Asset/Rectangle\ 9.png");
   margin: 100px;
+  margin: 100px 200px;
 }
+
 .email {
   padding: 20px 300px 20px 20px;
   border-radius: 8px;
