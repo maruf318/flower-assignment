@@ -43,7 +43,7 @@ header {
   background-color: #e55473;
   border: none;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 30px;
   font-size: 15px;
   font-weight: 700;
 }
@@ -182,7 +182,7 @@ span {
 }
 
 .email {
-  padding: 20px 300px 20px 20px;
+  padding: 15px 300px 15px 15px;
   border-radius: 8px;
   background: #fff;
   border: none;
