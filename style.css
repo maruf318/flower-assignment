@@ -17,10 +17,10 @@ header {
   width: 400px;
   height: 500px;
   padding-top: 50px;
-  padding-right: 220px;
+  padding-right: 200px;
 }
 .left-header {
-  padding-left: 220px;
+  padding-left: 200px;
 }
 .left-header-heading {
   color: #272727;
@@ -68,8 +68,8 @@ header {
   align-items: center;
 
   text-align: center;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 .flower {
   height: 450px;
@@ -80,7 +80,7 @@ header {
   border-radius: 450px 450px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
 
-  padding: 110px 60px 0px 60px;
+  padding: 110px 50px 0px 60px;
 }
 .second-flower-img {
   width: 220px;
@@ -89,7 +89,7 @@ header {
   border-radius: 450px 450px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
   /* padding: 20px 20px 20px 20px; */
-  padding: 100px 60px 50px 60px;
+  padding: 100px 40px 50px 60px;
 }
 .third-flower-img {
   /* width: 310px;
@@ -100,11 +100,11 @@ header {
   border-radius: 450px 450px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   /* padding: 40px 20px 0 20px; */
-  padding: 110px 60px 0px 60px;
+  padding: 110px 50px 0px 70px;
 }
 .flower-container {
-  margin-left: -20px;
-  margin-right: -20px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
   margin-bottom: 100px;
 }
 .pink-heading {
@@ -221,7 +221,8 @@ span {
   background-repeat: no-repeat;
 }
 .white-co {
-  color: rgb(115, 99, 99);
+  color: rgb(103, 175, 217);
+  background-color: transparent;
 }
 
 /* footer section CSS */
