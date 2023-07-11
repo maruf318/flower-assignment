@@ -223,6 +223,12 @@ span {
 .white-co {
   color: rgb(103, 175, 217);
   background-color: transparent;
+  font-size: 40px;
+}
+.white-com {
+  color: rgb(103, 175, 217);
+  font-size: 25px;
+  font-style: italic;
 }
 
 /* footer section CSS */
