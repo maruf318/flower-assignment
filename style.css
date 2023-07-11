@@ -94,7 +94,7 @@ header {
   height: 350px;
   border-radius: 400px 400px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-  padding: 40px 20px 0 20px;
+  padding: 20px 20px 0 20px;
 }
 .pink-heading {
   padding-top: 20px;
@@ -176,8 +176,9 @@ span {
   text-align: center;
   height: 400px;
   background-image: url("./Flower Asset/Rectangle\ 9.png");
-  margin: 100px;
-  margin: 100px 200px;
+  background-repeat: no-repeat;
+
+  margin: 100px 200px 0px 200px;
 }
 
 .email {
@@ -194,6 +195,8 @@ span {
   font-weight: 400;
   line-height: normal;
 }
+/* Extra section CSS */
+
 /* footer section CSS */
 footer {
   text-align: center;
@@ -201,6 +204,7 @@ footer {
   background-color: #111010;
   color: #fff;
   padding-top: 120px;
+  margin-top: 50px;
   /* padding-bottom: 120px; */
 }
 #footer-heading {
@@ -228,4 +232,12 @@ footer {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 120px;
+}
+.new {
+  background-image: url("./Flower Asset/extra pic/offer.jpg");
+  background-size: cover;
+  background-repeat: no repeat;
+}
+.white-co {
+  color: white;
 }
