@@ -68,8 +68,8 @@ header {
   align-items: center;
 
   text-align: center;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 190px;
+  padding-right: 190px;
 }
 .flower {
   height: 450px;
@@ -80,7 +80,7 @@ header {
   border-radius: 450px 450px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
 
-  padding: 110px 50px 0px 60px;
+  padding: 110px 60px 0px 60px;
 }
 .second-flower-img {
   width: 240px;
@@ -100,7 +100,7 @@ header {
   border-radius: 450px 450px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   /* padding: 40px 20px 0 20px; */
-  padding: 110px 50px 0px 70px;
+  padding: 110px 60px 0px 70px;
 }
 .flower-container {
   /* padding-left: 10px; */
